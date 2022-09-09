@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/uzbotType.xsd">
+	<import>
+		<uzbotNotify name="thread">
+			<notifyID>10</notifyID>
+			<hasContent>1</hasContent>
+			<hasLabels>1</hasLabels>
+			<hasSender>1</hasSender>
+			<hasSubject>1</hasSubject>
+			<hasReceiver>0</hasReceiver>
+			<hasTags>1</hasTags>
+			<hasTeaser>0</hasTeaser>
+			<neededModule></neededModule>
+			<notifyFunction>wbb\data\uzbot\notification\UzbotNotifyForumThread</notifyFunction>
+			<sortOrder>10</sortOrder>
+		</uzbotNotify>
+		
+		<uzbotNotify name="post">
+			<notifyID>11</notifyID>
+			<hasContent>1</hasContent>
+			<hasLabels>0</hasLabels>
+			<hasSender>1</hasSender>
+			<hasSubject>0</hasSubject>
+			<hasReceiver>0</hasReceiver>
+			<hasTags>0</hasTags>
+			<hasTeaser>0</hasTeaser>
+			<neededModule></neededModule>
+			<notifyFunction>wbb\data\uzbot\notification\UzbotNotifyForumPost</notifyFunction>
+			<sortOrder>11</sortOrder>
+		</uzbotNotify>
+	</import>
+</data>

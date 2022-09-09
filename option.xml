@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/option.xsd">
+	<import>
+		<options>
+			<option name="uzbot_data_limit_thread">
+				<categoryname>uzbot.general.data</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>300</defaultvalue>
+				<minvalue>50</minvalue>
+				<maxvalue>5000</maxvalue>
+			</option>
+		</options>
+	</import>
+</data>

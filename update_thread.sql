@@ -1,0 +1,1 @@
+ALTER TABLE wbb1_thread ADD isUzbot TINYINT(1) DEFAULT 0;

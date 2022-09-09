@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
+	<import>
+		<eventlistener name="uzbotAddWbbInherited">
+			<eventclassname>wcf\acp\form\UzbotAddForm</eventclassname>
+			<eventname>assignVariables,readFormParameters,save,validate,saved</eventname>
+			<listenerclassname>wbb\system\event\listener\UzbotAddFormWbbListener</listenerclassname>
+			<inherit>1</inherit>
+			<environment>admin</environment>
+		</eventlistener>
+		
+		<eventlistener name="uzbotEditWbbReadData">
+			<eventclassname>wcf\acp\form\UzbotEditForm</eventclassname>
+			<eventname>readData</eventname>
+			<listenerclassname>wbb\system\event\listener\UzbotAddFormWbbListener</listenerclassname>
+			<environment>admin</environment>
+		</eventlistener>
+		
+		<eventlistener name="uzbotWbbThreadAction">
+			<eventclassname>wbb\data\thread\ThreadAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<listenerclassname>wbb\system\event\listener\UzbotThreadActionListener</listenerclassname>
+			<environment>user</environment>
+		</eventlistener>
+		<eventlistener name="uzbotWbbThreadActionAdmin">
+			<eventclassname>wbb\data\thread\ThreadAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<listenerclassname>wbb\system\event\listener\UzbotThreadActionListener</listenerclassname>
+			<environment>admin</environment>
+		</eventlistener>
+		
+		<eventlistener name="uzbotWbbPostAction">
+			<eventclassname>wbb\data\post\PostAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<listenerclassname>wbb\system\event\listener\UzbotPostActionListener</listenerclassname>
+			<environment>user</environment>
+		</eventlistener>
+		<eventlistener name="uzbotWbbPostActionAdmin">
+			<eventclassname>wbb\data\post\PostAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<listenerclassname>wbb\system\event\listener\UzbotPostActionListener</listenerclassname>
+			<environment>admin</environment>
+		</eventlistener>
+		
+		<eventlistener name="uzbotWbbThreadModerationAction">
+			<eventclassname>wcf\data\modification\log\ModificationLogAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<listenerclassname>wbb\system\event\listener\UzbotThreadModerationListener</listenerclassname>
+			<environment>user</environment>
+		</eventlistener>
+		
+		<eventlistener name="uzbotWbbPostModerationAction">
+			<eventclassname>wcf\data\modification\log\ModificationLogAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<listenerclassname>wbb\system\event\listener\UzbotPostModerationListener</listenerclassname>
+			<environment>user</environment>
+		</eventlistener>
+		
+		<eventlistener name="uzbotWbbDeleteBotAction">
+			<eventclassname>wcf\data\uzbot\UzbotAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<listenerclassname>wbb\system\event\listener\UzbotWbbDeleteBotListener</listenerclassname>
+			<environment>admin</environment>
+		</eventlistener>
+	</import>
+</data>

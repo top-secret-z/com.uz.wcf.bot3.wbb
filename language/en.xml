@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.uzbot_data_limit_thread"><![CDATA[Threads]]></item>
+		<item name="wcf.acp.option.uzbot_data_limit_thread.description"><![CDATA[Number of threads which are proccessed during each Bot run (modification).]]></item>
+	</category>
+	
+	<category name="wcf.acp.uzbot">
+		<item name="wcf.acp.uzbot.log.wbb.thread.modified"><![CDATA[{$action} - affected threads: {$threadIDs}]]></item>
+		<item name="wcf.acp.uzbot.log.wbb.thread.affected"><![CDATA[Number of affected threads iaw condition: {$count}]]></item>
+		
+		<item name="wcf.acp.uzbot.notify.post"><![CDATA[Forum - Post]]></item>
+		<item name="wcf.acp.uzbot.notify.post.setting"><![CDATA[Post Settings]]></item>
+		<item name="wcf.acp.uzbot.notify.post.status"><![CDATA[Status]]></item>
+		<item name="wcf.acp.uzbot.notify.post.status.isClosed"><![CDATA[editing prohibited]]></item>
+		<item name="wcf.acp.uzbot.notify.post.status.isDisabled"><![CDATA[disabled]]></item>
+		<item name="wcf.acp.uzbot.notify.post.status.postIsOfficial"><![CDATA[official post]]></item>
+		<item name="wcf.acp.uzbot.notify.post.threadID"><![CDATA[Thread]]></item>
+		<item name="wcf.acp.uzbot.notify.post.threadID.description"><![CDATA[ID of thread or 0 with certain Bots; see help.]]></item>
+		<item name="wcf.acp.uzbot.notify.post.threadID.error.notValid"><![CDATA[The thread ID is invalid, the thread does ot exist.]]></item>
+		
+		<item name="wcf.acp.uzbot.notify.thread"><![CDATA[Forum - Thread]]></item>
+		<item name="wcf.acp.uzbot.notify.thread.boardID"><![CDATA[Forum]]></item>
+		<item name="wcf.acp.uzbot.notify.thread.error.notValid"><![CDATA[The selected board is not valid.]]></item>
+		<item name="wcf.acp.uzbot.notify.thread.error.notAllowedOnThreadNew"><![CDATA[The selected board may not be used because it is monitored by this Bot.]]></item>
+		<item name="wcf.acp.uzbot.notify.thread.error.notConfigured"><![CDATA[The board must be selected.]]></item>
+		<item name="wcf.acp.uzbot.notify.thread.setting"><![CDATA[Thread Settings]]></item>
+		<item name="wcf.acp.uzbot.notify.thread.status"><![CDATA[Status]]></item>
+		<item name="wcf.acp.uzbot.notify.thread.status.isClosed"><![CDATA[closed]]></item>
+		<item name="wcf.acp.uzbot.notify.thread.status.isDisabled"><![CDATA[disabled]]></item>
+		<item name="wcf.acp.uzbot.notify.thread.status.isDone"><![CDATA[resolved]]></item>
+		<item name="wcf.acp.uzbot.notify.thread.status.isSticky"><![CDATA[pinned]]></item>
+		<item name="wcf.acp.uzbot.notify.thread.status.threadIsOfficial"><![CDATA[official post]]></item>
+		<item name="wcf.acp.uzbot.notify.type.post"><![CDATA[Forum - Post]]></item>
+		<item name="wcf.acp.uzbot.notify.type.thread"><![CDATA[Forum - Thread]]></item>
+		
+		<item name="wcf.acp.uzbot.type.wbb_bestAnswer"><![CDATA[Forum - Thread - Best Answer]]></item>
+		<item name="wcf.acp.uzbot.type.wbb_postChange"><![CDATA[Forum - Post - Change by Author]]></item>
+		<item name="wcf.acp.uzbot.type.wbb_postCount"><![CDATA[Forum - Post - Number of Posts]]></item>
+		<item name="wcf.acp.uzbot.type.wbb_postModeration"><![CDATA[Forum - Post - Moderation]]></item>
+		<item name="wcf.acp.uzbot.type.wbb_threadModeration"><![CDATA[Forum - Thread - Moderation]]></item>
+		<item name="wcf.acp.uzbot.type.wbb_threadModification"><![CDATA[Forum - Thread - Modification]]></item>
+		<item name="wcf.acp.uzbot.type.wbb_threadNew"><![CDATA[Forum - Thread - New]]></item>
+		<item name="wcf.acp.uzbot.type.wbb_statistics"><![CDATA[Forum - Statistics]]></item>
+		<item name="wcf.acp.uzbot.type.wbb_topPoster"><![CDATA[Forum - Top Poster]]></item>
+		
+		<item name="wcf.acp.uzbot.wbb.action.changed"><![CDATA[edited]]></item>
+		<item name="wcf.acp.uzbot.wbb.action.deleted"><![CDATA[deleted]]></item>
+		
+		<item name="wcf.acp.uzbot.wbb.condition.days.time"><![CDATA[Days since Creation]]></item>
+		<item name="wcf.acp.uzbot.wbb.condition.days.lastPostTime"><![CDATA[Days since last Reply]]></item>
+		<item name="wcf.acp.uzbot.wbb.condition.label"><![CDATA[Label State]]></item>
+		<item name="wcf.acp.uzbot.wbb.condition.label.error.conflict"><![CDATA[You cannot simultaneously select “Has Labels” and “Has no Labels”.]]></item>
+		<item name="wcf.acp.uzbot.wbb.condition.label.hasLabels"><![CDATA[Has Labels]]></item>
+		<item name="wcf.acp.uzbot.wbb.condition.label.hasNoLabels"><![CDATA[Has no Labels]]></item>
+		
+		<item name="wcf.acp.uzbot.wbb.error.executerInvalid"><![CDATA[The executing user is invalid. The Bot was disabled.]]></item>
+		
+		<item name="wcf.acp.uzbot.wbb.postChange.action"><![CDATA[Monitored Actions]]></item>
+		<item name="wcf.acp.uzbot.wbb.postChange.action.error.notConfigured"><![CDATA[At least one action must be selected.]]></item>
+		<item name="wcf.acp.uzbot.wbb.postChange.delete"><![CDATA[Monitor deletion]]></item>
+		<item name="wcf.acp.uzbot.wbb.postChange.update"><![CDATA[Monitor update]]></item>
+		
+		<item name="wcf.acp.uzbot.wbb.postCount.action"><![CDATA[Action]]></item>
+		<item name="wcf.acp.uzbot.wbb.postCount.postTop"><![CDATA[User with the most posts]]></item>
+		<item name="wcf.acp.uzbot.wbb.postCount.postTotal"><![CDATA[Total number of posts]]></item>
+		<item name="wcf.acp.uzbot.wbb.postCount.postX"><![CDATA[Xth post of a user]]></item>
+		
+		<item name="wcf.acp.uzbot.wbb.postModeration.action"><![CDATA[Monitored Action(s)]]></item>
+		<item name="wcf.acp.uzbot.wbb.postModeration.action.error.notConfigured"><![CDATA[At least one action must be selected.]]></item>
+		<item name="wcf.acp.uzbot.wbb.postModeration.close"><![CDATA[prohibit editing]]></item>
+		<item name="wcf.acp.uzbot.wbb.postModeration.delete"><![CDATA[delete]]></item>
+		<item name="wcf.acp.uzbot.wbb.postModeration.disable"><![CDATA[disable]]></item>
+		<item name="wcf.acp.uzbot.wbb.postModeration.edit"><![CDATA[edit]]></item>
+		<item name="wcf.acp.uzbot.wbb.postModeration.enable"><![CDATA[enable]]></item>
+		<item name="wcf.acp.uzbot.wbb.postModeration.merge"><![CDATA[merge]]></item>
+		<item name="wcf.acp.uzbot.wbb.postModeration.move"><![CDATA[move]]></item>
+		<item name="wcf.acp.uzbot.wbb.postModeration.open"><![CDATA[allow editing]]></item>
+		<item name="wcf.acp.uzbot.wbb.postModeration.restore"><![CDATA[restore]]></item>
+		<item name="wcf.acp.uzbot.wbb.postModeration.trash"><![CDATA[trash]]></item>
+		
+		<item name="wcf.acp.uzbot.wbb.thread.condition"><![CDATA[Thread Conditions]]></item>
+		<item name="wcf.acp.uzbot.wbb.thread.condition.description"><![CDATA[Only threads which fulfill the following conditions will be affected by the action(s). The Bot will be applied to all threads if no conditions are selected.]]></item>
+		
+		<item name="wcf.acp.uzbot.wbb.threadModification.action"><![CDATA[Action(s) to be executed]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.error.notConfigured"><![CDATA[At least one action must be selected.]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.boardID"><![CDATA[Forum for Move Action]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.boardID.error.notValid"><![CDATA[You have to select a valid board.]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.close"><![CDATA[Threads closed]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.delete"><![CDATA[Threads deleted]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.deleteLabels"><![CDATA[Thread labels deleted]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.disable"><![CDATA[Threads disabled]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.done"><![CDATA[Threads marked as resolved]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.enable"><![CDATA[Threads enabled]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.markAsDone"><![CDATA[Threads marked as resolved]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.markAsUndone"><![CDATA[Threads marked as unresolved]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.move"><![CDATA[Threads moved]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.open"><![CDATA[Threads opened]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.restore"><![CDATA[Threads restored]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.scrape"><![CDATA[Threads unpinned]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.setLabels"><![CDATA[Threads labels set]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.sticky"><![CDATA[Threads pinned]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.trash"><![CDATA[Threads trashed]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.unannounce"><![CDATA[Announcements deleted]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.action.undone"><![CDATA[Threads marked as unresolved]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.executer"><![CDATA[Executing User]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.executer.description"><![CDATA[This user is needed for to thread change log.]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.executer.error.empty"><![CDATA[You must enter a username.]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.executer.error.invalid"><![CDATA[The user does not exist.]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.noFound"><![CDATA[No threads found.]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModification.setting"><![CDATA[Settings]]></item>
+		
+		<item name="wcf.acp.uzbot.wbb.threadModeration.action"><![CDATA[Monitored Action(s)]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.action.error.notConfigured"><![CDATA[At least one action must be selected.]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.author"><![CDATA[Author]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.authorOnly"><![CDATA[only consider the author of the thread as affected user]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.changeTopic"><![CDATA[change title]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.close"><![CDATA[close]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.disable"><![CDATA[disable]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.done"><![CDATA[mark as resolved]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.enable"><![CDATA[enable]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.merge"><![CDATA[merge]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.move"><![CDATA[move]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.open"><![CDATA[open]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.restore"><![CDATA[restore]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.scrape"><![CDATA[unpin]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.setAsAnnouncement"><![CDATA[make an announcement]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.setLabel"><![CDATA[change label]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.sticky"><![CDATA[pin]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.trash"><![CDATA[trash]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.undone"><![CDATA[mark as unresolved]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadModeration.unsetAsAnnouncement"><![CDATA[unmake an announcement]]></item>
+		
+		<item name="wcf.acp.uzbot.wbb.threadNew.threadNewBoardIDs"><![CDATA[Monitored Boards]]></item>
+		<item name="wcf.acp.uzbot.wbb.threadNew.threadNewBoardIDs.error.notConfigured"><![CDATA[At least one board must be selected.]]></item>
+		
+		<item name="wcf.acp.uzbot.wbb.topPoster.count"><![CDATA[Number of Top Posters]]></item>
+		<item name="wcf.acp.uzbot.wbb.topPoster.interval"><![CDATA[Interval]]></item>
+		<item name="wcf.acp.uzbot.wbb.topPoster.interval.week"><![CDATA[Week]]></item>
+		<item name="wcf.acp.uzbot.wbb.topPoster.interval.month"><![CDATA[Month]]></item>
+		<item name="wcf.acp.uzbot.wbb.topPoster.interval.quarter"><![CDATA[Quarter]]></item>
+		
+		<item name="wcf.acp.uzbot.wbb.uzbotBoardIDs"><![CDATA[Monitored Boards]]></item>
+		<item name="wcf.acp.uzbot.wbb.uzbotBoardIDs.error.notConfigured"><![CDATA[At least one board must be selected.]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.30"><![CDATA[Forum - Post - Change by Author]]></item>
+		<item name="wcf.acp.uzbot.help.type.30.description"><![CDATA[<p>This Bot monitors the modification or deletion of posts by their authors and sends a notification when a user has edited or deleted a post of him. The moderation of posts is not accessed by this Bot.</p>
+<p>The author of the post is affected user and can be directly addressed. If necessary, a post can be created directly in the thread with the recognized post. To do so, you must enter 0 as a thread ID under “Thread”.</p>
+<br><p>By selection of monitored boards and / or configuration of general user conditions the monitoring can be limited to certain boards resp. users.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[action]</strong></td><td>Action executed by the user: “edited” or “deleted”</td></tr>
+<tr><td><strong>[count]</strong></td><td>Total number of modified / deleted posts (always 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Number of posts modified / deleted by the affected user (always 1)</td></tr>
+<tr><td><strong>[board-id]</strong></td><td>ID of the forum the changed post was posted</td></tr>
+<tr><td><strong>[board-name]</strong></td><td>Name of the forum</td></tr>
+<tr><td><strong>[post-id]</strong></td><td>ID of the modified post</td></tr>
+<tr><td><strong>[post-link]</strong></td><td>Link to the post</td></tr>
+<tr><td><strong>[post-subject]</strong></td><td>Title of post</td></tr>
+<tr><td><strong>[post-text]</strong></td><td>Text of post</td></tr>
+<tr><td><strong>[quote]</strong></td><td>Text of the post as quote</td></tr>
+<tr><td><strong>[reason]</strong></td><td>Reason for the modification as given ba the user</td></tr>
+<tr><td><strong>[thread-link]</strong></td><td>Link to the thread the modified post was created in</td></tr>
+<tr><td><strong>[thread-subject]</strong></td><td>Title of the thread</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.31"><![CDATA[Forum - Post - Number]]></item>
+		<item name="wcf.acp.uzbot.help.type.31.description"><![CDATA[<p>This Bot monitors the publication of posts and sends a notification when a user or guest has written a new post and the post is published / enabled.</p>
+<p>The author of the post is affected user and can be directly addressed. If necessary, a post can be created directly in the thread with the recognized post. To do so, you must enter 0 as a thread ID under “Thread”.</p>
+<br><p>“Total number of posts” will force a notification when the total number of posts reaches one of the values in “Trigger Values”.</p>
+<p>Using “Xth post of a user” the notification will be sent when the affected user’s count for posts reaches one of the values in “Trigger Values”.</p>
+<p>“User with the most posts” will force a notification when the user with the most posts changes. Trigger values don’t need to be configured.</p>
+<br><p>By configuration of general user conditions the notification for “Xth post of a user” can be limited to certain users.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Total number of posts (without posts in trash can)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Number of posts of the affected user (0 if guest)</td></tr>
+<tr><td><strong>[board-id]</strong></td><td>ID of the forum the post was published in</td></tr>
+<tr><td><strong>[board-name]</strong></td><td>Name of the forum</td></tr>
+<tr><td><strong>[post-id]</strong></td><td>ID of the new post</td></tr>
+<tr><td><strong>[post-link]</strong></td><td>Link to the post</td></tr>
+<tr><td><strong>[post-subject]</strong></td><td>Title of post</td></tr>
+<tr><td><strong>[post-text]</strong></td><td>Text of post</td></tr>
+<tr><td><strong>[quote]</strong></td><td>Text of the post as quote</td></tr>
+<tr><td><strong>[thread-link]</strong></td><td>Link to the thread the post was created in</td></tr>
+<tr><td><strong>[thread-subject]</strong></td><td>Title of the thread</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.32"><![CDATA[Forum - Post - Moderation]]></item>
+		<item name="wcf.acp.uzbot.help.type.32.description"><![CDATA[<p>This Bot monitors the moderation of posts and sends a notification when a post was changed in accordance with the selected action(s).</p>
+<p>The author of the post is the affected user and can be directly addressed. If necessary, a post can be created directly in the thread with the moderated post. To do so, you must enter 0 as a thread ID under “Thread”.</p>
+<br><p>By selection of monitored boards and / or configuration of general user conditions the monitoring can be limited to certain boards resp. users. By selection of the affected user, the notifications will be send to either the moderator or the authors of the post.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Total number of users affected by the moderation</td></tr>
+<tr><td><strong>[board-id]</strong></td><td>ID of the forum the moderated post was created in</td></tr>
+<tr><td><strong>[board-name]</strong></td><td>Name of the forum</td></tr>
+<tr><td><strong>[moderation-action]</strong></td><td>Action (e.g. “deleted”, “enabled”, “moved”</td></tr>
+<tr><td><strong>[moderation-reason]</strong></td><td>Reason for moderation (not all actions)</td></tr>
+<tr><td><strong>[moderator-id]</strong></td><td>ID of the user who moderated the post</td></tr>
+<tr><td><strong>[moderator-link]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[moderator-link2]</strong></td><td>Masked link to the user’s profile</td></tr>
+<tr><td><strong>[moderator-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[post-link]</strong></td><td>Link to the moderated post (depending on permissions not available for all users)</td></tr>
+<tr><td><strong>[post-subject]</strong></td><td>Title of post</td></tr>
+<tr><td><strong>[post-text]</strong></td><td>Text of post</td></tr>
+<tr><td><strong>[thread-link]</strong></td><td>Link to the thread with the moderated post (depending on permissions not available for all users)</td></tr>
+<tr><td><strong>[thread-subject]</strong></td><td>Title of thread</td></tr>
+<tr><td><strong>[thread-text]</strong></td><td>Text of thread</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.40"><![CDATA[Forum - Thread - Moderation]]></item>
+		<item name="wcf.acp.uzbot.help.type.40.description"><![CDATA[<p>This Bot monitors the moderation of threads and sends a notification when a thread was changed in accordance with the selected action(s).</p>
+<p>The author of the thread and, unless excluded, authors of the posts within the thread (poster) are the affected users and can be directly addressed. If necessary, a post can be created directly in the moderated thread. To do so, you must enter 0 as a thread ID under “Thread”.</p>
+<br><p>By selection of monitored boards and / or configuration of general user conditions the monitoring can be limited to certain boards resp. users. By selection of the affected user, the notifications will be send to either the moderator or the authors of the thread / posts.</p>
+<br><p>Notice: one notification will be created for each affected user. This is valid for notifications without individual receiver, like article, threads and posts, too. If you wish only one notification, you have to either select “only consider the author of the thread as affected user” (Author) or “Acting user” as affected user.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Total number of users affected by the moderation</td></tr>
+<tr><td><strong>[board-id]</strong></td><td>ID of the forum the moderated thread was created in</td></tr>
+<tr><td><strong>[board-name]</strong></td><td>Name of the forum</td></tr>
+<tr><td><strong>[moderation-action]</strong></td><td>Action (e.g. “deleted”, “enabled”, “label changed”, “moved”</td></tr>
+<tr><td><strong>[moderation-reason]</strong></td><td>Reason for moderation (not all actions)</td></tr>
+<tr><td><strong>[moderator-id]</strong></td><td>ID of the user who moderated the thread</td></tr>
+<tr><td><strong>[moderator-link]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[moderator-link2]</strong></td><td>Masked link to the user’s profile</td></tr>
+<tr><td><strong>[moderator-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[thread-link]</strong></td><td>Link to the moderated thread (depending on permissions not available for all users)</td></tr>
+<tr><td><strong>[thread-subject]</strong></td><td>Title of thread</td></tr>
+<tr><td><strong>[thread-text]</strong></td><td>Text of thread</td></tr>
+<tr><td><strong>[user-count]</strong></td><td>Number of posts of a affected user within the moderated thread</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.41"><![CDATA[Forum - Thread - Modification]]></item>
+		<item name="wcf.acp.uzbot.help.type.41.description"><![CDATA[<p>This Bot modifies selected threads and sends a notification when a modification action was applied to the threads. The number of threads per cronjob run can be configured (default: 300).</p>
+<p>The authors of the threads and, unless excluded, authors of the posts within the thread (poster) are the affected users and can be directly addressed. If necessary, a post can be created directly in the modified thread. To do so, you must enter 0 as a thread ID under “Thread”.</p>
+<br><p>You may choose more than one action. Actions will be executed according to the sequence in the Bot configuration.</p>
+<br><p>Notice: one notification will be created for each affected user. This is valid for notifications without individual receiver, like article, threads and posts, too. If you wish only one notification per thread, you have to select “only consider the author of the thread as affected user” under Author. Depending on configuration and number of modified threads, a lot of notifications may be created.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[action]</strong></td><td>Action (e.g. “deleted”, “enabled”, “label changed”, “moved”</td></tr>
+<tr><td><strong>[count]</strong></td><td>Total number of affected threads</td></tr>
+<tr><td><strong>[object-ids]</strong></td><td>IDs of the affected threads</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.42"><![CDATA[Forum - Thread - New]]></item>
+		<item name="wcf.acp.uzbot.help.type.42.description"><![CDATA[<p>This bot monitors the publication of threads and sends a notification when a user or guest has written a new thread and the thread is published / enabled.</p>
+<p>The author of the topic is the affected user and can be directly addressed. If necessary, a post can be created directly in the thread. To do so, you must enter 0 as a thread ID under “Thread”.</p>
+<br><p>Multiple forums can be monitored or only one. By configuring the general user conditions, specific users can be monitored.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Total number of published threads (always 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Number of threads created by the affected user (always 1)</td></tr>
+<tr><td><strong>[board-id]</strong></td><td>ID of the forum the thread was published in</td></tr>
+<tr><td><strong>[board-name]</strong></td><td>Name of the forum</td></tr>
+<tr><td><strong>[options]</strong></td><td>Inserts the contents of the thread form as text (from WSC 5.2)</td></tr>
+<tr><td><strong>[quote]</strong></td><td>Inserts the text of the thread as quote</td></tr>
+<tr><td><strong>[thread-link]</strong></td><td>Link to the thread</td></tr>
+<tr><td><strong>[thread-subject]</strong></td><td>Title of the thread</td></tr>
+<tr><td><strong>[thread-text]</strong></td><td>Text of the thread</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.43"><![CDATA[Forum - Top Poster]]></item>
+		<item name="wcf.acp.uzbot.help.type.43.description"><![CDATA[<p>This bot calculates the top posters for the given time period and sends a notification when the period has expired.</p>
+<p>The top posters are the affected users and can be directly addressed.</p>
+<br><p>Multiple forums can be monitored or only one. By configuring the general user conditions, specific users can be monitored.</p>
+<br><p>Notice: one notification will be created for each affected user. This is valid for notifications without individual receiver, like article, threads and posts, too. If you wish only one notification, you have to activate “Condense Results”.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date-from]</strong></td><td>Date of the period’s beginning</td></tr>
+<tr><td><strong>[time-from]</strong></td><td>Time of period’s beginning</td></tr>
+<tr><td><strong>[date-to]</strong></td><td>Date of the period’s end</td></tr>
+<tr><td><strong>[time-to]</strong></td><td>Time of period’s end</td></tr>
+<tr><td><strong>[user-rank]</strong></td><td>Rank of the user; the top poster gets a 1, the following users 2, 3, 4 ...</td></tr>
+<tr><td><strong>[user-count]</strong></td><td>Nuimber of posts in the period</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+		
+		<item name="wcf.acp.uzbot.help.type.44"><![CDATA[Forum - Statistics]]></item>
+		<item name="wcf.acp.uzbot.help.type.44.description"><![CDATA[<p>This Bot creates a daily statistics with forum data like boards, threads and posts.</p>
+<p>Only the notification must be configured. And there are no affected users.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[stats]</strong></td><td>Formatted statistics data</td></tr>
+<tr><td><strong>[date-from]</strong></td><td>Date of the period’s beginning</td></tr>
+<tr><td><strong>[time-from]</strong></td><td>Time of period’s beginning</td></tr>
+<tr><td><strong>[date-to]</strong></td><td>Date of the period’s end</td></tr>
+<tr><td><strong>[time-to]</strong></td><td>Time of period’s end</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>-</strong></td><td>-</td></tr>
+</table>]]></item>
+
+		<item name="wcf.acp.uzbot.help.type.45"><![CDATA[Forum - Thread - Best Answer]]></item>
+		<item name="wcf.acp.uzbot.help.type.45.description"><![CDATA[<p>This bot monitors the selection of a post as Best Answer and sends a notification when the Best Answer is set in a thread.</p>
+<p>The author of the post is the affected user and can be directly addressed. If necessary, a post can be created directly in the thread. To do so, you must enter 0 as a thread ID under “Thread”.</p>
+<br><p>The following Bot-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[count]</strong></td><td>Number of Best Answers (always 1)</td></tr>
+<tr><td><strong>[count-user]</strong></td><td>Number of user posts</td></tr>
+<tr><td><strong>[board-id]</strong></td><td>ID of the board, in which the thread was published</td></tr>
+<tr><td><strong>[board-name]</strong></td><td>Board name</td></tr>
+<tr><td><strong>[thread-link]</strong></td><td>Link to thread</td></tr>
+<tr><td><strong>[thread-subject]</strong></td><td>Title of thread</td></tr>
+<tr><td><strong>[post-id]</strong></td><td>ID of the post with the Best Answer</td></tr>
+<tr><td><strong>[post-link]</strong></td><td>Link to post</td></tr>
+<tr><td><strong>[post-subject]</strong></td><td>Title of post</td></tr>
+<tr><td><strong>[post-text]</strong></td><td>Text of post</td></tr>
+<tr><td><strong>[quote]</strong></td><td>Text of the post as quote</td></tr>
+</table>
+<br><p>The following general placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[date]</strong></td><td>Date of Bot execution</td></tr>
+<tr><td><strong>[time]</strong></td><td>Time of Bot execution</td></tr>
+<tr><td><strong>[page]</strong></td><td>Name of this website, as defined in ACP</td></tr>
+<tr><td><strong>[receiver]</strong></td><td>Username of the receiver of a notification</td></tr>
+</table>
+<br><p>The following user-specific placeholders are available:</p>
+<table><col width="200px">
+<tr><td><strong>[user-age]</strong></td><td>Age of the user</td></tr>
+<tr><td><strong>[user-email]</strong></td><td>Email address of the user</td></tr>
+<tr><td><strong>[user-groups]</strong></td><td>Names of the user groups the user is member of</td></tr>
+<tr><td><strong>[user-id]</strong></td><td>ID of the user</td></tr>
+<tr><td><strong>[user-name]</strong></td><td>Name of the user</td></tr>
+<tr><td><strong>[user-profile]</strong></td><td>Link to the user’s profile</td></tr>
+<tr><td><strong>[@user-profile]</strong></td><td>Link to the user’s profile with notification (posts only)</td></tr>
+</table>]]></item>
+	</category>
+	
+	<category name="wcf.uzbot">
+		<item name="wcf.uzbot.wbb.moderation.changeTopic"><![CDATA[title changed]]></item>
+		<item name="wcf.uzbot.wbb.moderation.close"><![CDATA[closed]]></item>
+		<item name="wcf.uzbot.wbb.moderation.delete"><![CDATA[deleted]]></item>
+		<item name="wcf.uzbot.wbb.moderation.disable"><![CDATA[disabled]]></item>
+		<item name="wcf.uzbot.wbb.moderation.done"><![CDATA[marked as resolved]]></item>
+		<item name="wcf.uzbot.wbb.moderation.enable"><![CDATA[enabled]]></item>
+		<item name="wcf.uzbot.wbb.moderation.markAsDone"><![CDATA[marked as resolved]]></item>
+		<item name="wcf.uzbot.wbb.moderation.markAsUndone"><![CDATA[marked as unresolved]]></item>
+		<item name="wcf.uzbot.wbb.moderation.merge"><![CDATA[merged]]></item>
+		<item name="wcf.uzbot.wbb.moderation.move"><![CDATA[moved]]></item>
+		<item name="wcf.uzbot.wbb.moderation.open"><![CDATA[opened]]></item>
+		<item name="wcf.uzbot.wbb.moderation.restore"><![CDATA[restored]]></item>
+		<item name="wcf.uzbot.wbb.moderation.scrape"><![CDATA[unpinned]]></item>
+		<item name="wcf.uzbot.wbb.moderation.setAsAnnouncement"><![CDATA[made an announcement]]></item>
+		<item name="wcf.uzbot.wbb.moderation.setLabel"><![CDATA[label(s) changed]]></item>
+		<item name="wcf.uzbot.wbb.moderation.sticky"><![CDATA[pinned]]></item>
+		<item name="wcf.uzbot.wbb.moderation.trash"><![CDATA[trashed]]></item>
+		<item name="wcf.uzbot.wbb.moderation.undone"><![CDATA[marked as unresolved]]></item>
+		<item name="wcf.uzbot.wbb.moderation.unsetAsAnnouncement"><![CDATA[unmade an announcement]]></item>
+		
+		<item name="wcf.uzbot.wbb.moderation.post.close"><![CDATA[editing prohibited]]></item>
+		<item name="wcf.uzbot.wbb.moderation.post.delete"><![CDATA[deleted]]></item>
+		<item name="wcf.uzbot.wbb.moderation.post.deleted"><![CDATA[post was deleted]]></item>
+		<item name="wcf.uzbot.wbb.moderation.post.disable"><![CDATA[disabled]]></item>
+		<item name="wcf.uzbot.wbb.moderation.post.edit"><![CDATA[edited]]></item>
+		<item name="wcf.uzbot.wbb.moderation.post.enable"><![CDATA[enabled]]></item>
+		<item name="wcf.uzbot.wbb.moderation.post.merge"><![CDATA[merged]]></item>
+		<item name="wcf.uzbot.wbb.moderation.post.move"><![CDATA[moved]]></item>
+		<item name="wcf.uzbot.wbb.moderation.post.open"><![CDATA[editing allowed]]></item>
+		<item name="wcf.uzbot.wbb.moderation.post.restore"><![CDATA[restored]]></item>
+		<item name="wcf.uzbot.wbb.moderation.post.trash"><![CDATA[trashed]]></item>
+		
+		<item name="wcf.uzbot.wbb.stats"><![CDATA[<strong>Boards</strong>
+<br>- Total: {#$boardOld} -- {#$board} ({if $board > $boardOld}+{/if}{$board - $boardOld})
+<br>- Categories: {#$boardCategoryOld} -- {#$boardCategory} ({if $boardCategory > $boardCategoryOld}+{/if}{$boardCategory - $boardCategoryOld})
+<br>- Links: {#$boardLinkOld} -- {#$boardLink} ({if $boardLink > $boardLinkOld}+{/if}{$boardLink - $boardLinkOld})
+<br>- Closed: {#$boardClosedOld} -- {#$boardClosed} ({if $boardClosed > $boardClosedOld}+{/if}{$boardClosed - $boardClosedOld})
+<br>- Hidden: {#$boardInvisibleOld} -- {#$boardInvisible} ({if $boardInvisible > $boardInvisibleOld}+{/if}{$boardInvisible - $boardInvisibleOld})
+<br><br><strong>Threads</strong>
+<br>- Total: {#$threadOld} -- {#$thread} ({if $thread > $threadOld}+{/if}{$thread - $threadOld})
+<br>- Announcements: {#$threadAnnouncementOld} -- {#$threadAnnouncement} ({if $threadAnnouncement > $threadAnnouncementOld}+{/if}{$threadAnnouncement - $threadAnnouncementOld})
+<br>- Polls: {#$threadPollOld} -- {#$threadPoll} ({if $threadPoll > $threadPollOld}+{/if}{$threadPoll - $threadPollOld})
+<br>- Sticky: {#$threadStickyOld} -- {#$threadSticky} ({if $threadSticky > $threadStickyOld}+{/if}{$threadSticky - $threadStickyOld})
+<br>- Disabled: {#$threadDisabledOld} -- {#$threadDisabled} ({if $threadDisabled > $threadDisabledOld}+{/if}{$threadDisabled - $threadDisabledOld})
+<br>- Closed: {#$threadClosedOld} -- {#$threadClosed} ({if $threadClosed > $threadClosedOld}+{/if}{$threadClosed - $threadClosedOld})
+<br>- Deleted: {#$threadDeletedOld} -- {#$threadDeleted} ({if $threadDeleted > $threadDeletedOld}+{/if}{$threadDeleted - $threadDeletedOld})
+<br>- Views: {#$threadViewOld} -- {#$threadView} ({if $threadView > $threadViewOld}+{/if}{$threadView - $threadViewOld})
+<br><br><strong>Posts</strong>
+<br>- Total: {#$postOld} -- {#$post} ({if $post > $postOld}+{/if}{$post - $postOld})
+<br>- Disabled: {#$postDisabledOld} -- {#$postDisabled} ({if $postDisabled > $postDisabledOld}+{/if}{$postDisabled - $postDisabledOld})
+<br>- Closed: {#$postClosedOld} -- {#$postClosed} ({if $postClosed > $postClosedOld}+{/if}{$postClosed - $postClosedOld})
+<br>- Deleted: {#$postDeletedOld} -- {#$postDeleted} ({if $postDeleted > $postDeletedOld}+{/if}{$postDeleted - $postDeletedOld})
+<br>- Edits: {#$postEditOld} -- {#$postEdit} ({if $postEdit > $postEditOld}+{/if}{$postEdit - $postEditOld})
+<br>]]></item>
+	</category>
+</language>
