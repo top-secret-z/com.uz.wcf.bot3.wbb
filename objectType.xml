@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/objectType.xsd">
-	<import>
-		<type>
-			<name>com.uz.wcf.bot.condition.wbbPosts</name>
-			<definitionname>com.uz.wcf.bot.condition.user</definitionname>
-			<classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
-			<conditiongroup>contents</conditiongroup>
-			<propertyname>wbbPosts</propertyname>
-			<minvalue>0</minvalue>
-		</type>
-		
-		<!-- thread action conditions -->
-		<type>
-			<name>com.uz.wcf.bot.wbb.username</name>
-			<definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
-			<classname>wbb\system\condition\thread\ThreadUsernameCondition</classname>
-			<conditionobject>com.woltlab.wbb.thread</conditionobject>
-			<conditiongroup>general</conditiongroup>
-		</type>
-		
-		<type>
-			<name>com.uz.wcf.bot.wbb.thread.time</name>
-			<definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
-			<classname>wbb\system\condition\uzbot\UzbotThreadIntegerPropertyCondition</classname>
-			<conditionobject>com.woltlab.wbb.thread</conditionobject>
-			<conditiongroup>general</conditiongroup>
-		</type>
-		<type>
-			<name>com.uz.wcf.bot.wbb.thread.lastPostTime</name>
-			<definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
-			<classname>wbb\system\condition\uzbot\UzbotThreadIntegerPropertyCondition</classname>
-			<conditionobject>com.woltlab.wbb.thread</conditionobject>
-			<conditiongroup>general</conditiongroup>
-		</type>
-		
-		<type>
-			<name>com.uz.wcf.bot.wbb.replies</name>
-			<definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
-			<classname>wbb\system\condition\thread\ThreadIntegerPropertyCondition</classname>
-			<conditionobject>com.woltlab.wbb.thread</conditionobject>
-			<conditiongroup>general</conditiongroup>
-			<minvalue>0</minvalue>
-		</type>
-		<type>
-			<name>com.uz.wcf.bot.wbb.views</name>
-			<definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
-			<classname>wbb\system\condition\thread\ThreadIntegerPropertyCondition</classname>
-			<conditionobject>com.woltlab.wbb.thread</conditionobject>
-			<conditiongroup>general</conditiongroup>
-			<minvalue>0</minvalue>
-		</type>
-		<type>
-			<name>com.uz.wcf.bot.wbb.board</name>
-			<definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
-			<classname>wbb\system\condition\thread\ThreadBoardCondition</classname>
-			<conditionobject>com.woltlab.wbb.thread</conditionobject>
-			<conditiongroup>general</conditiongroup>
-		</type>
-		
-		<type>
-			<name>com.uz.wcf.bot.wbb.state</name>
-			<definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
-			<classname>wbb\system\condition\thread\ThreadStateCondition</classname>
-			<conditionobject>com.woltlab.wbb.thread</conditionobject>
-			<conditiongroup>general</conditiongroup>
-		</type>
-		
-		<type>
-			<name>com.uz.wcf.bot.wbb.state.label</name>
-			<definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
-			<classname>wbb\system\condition\uzbot\UzbotThreadLabelStateCondition</classname>
-			<conditionobject>com.woltlab.wbb.thread</conditionobject>
-			<conditiongroup>general</conditiongroup>
-		</type>
-	</import>
+    <import>
+        <type>
+            <name>com.uz.wcf.bot.condition.wbbPosts</name>
+            <definitionname>com.uz.wcf.bot.condition.user</definitionname>
+            <classname>wcf\system\condition\UserIntegerPropertyCondition</classname>
+            <conditiongroup>contents</conditiongroup>
+            <propertyname>wbbPosts</propertyname>
+            <minvalue>0</minvalue>
+        </type>
+
+        <!-- thread action conditions -->
+        <type>
+            <name>com.uz.wcf.bot.wbb.username</name>
+            <definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
+            <classname>wbb\system\condition\thread\ThreadUsernameCondition</classname>
+            <conditionobject>com.woltlab.wbb.thread</conditionobject>
+            <conditiongroup>general</conditiongroup>
+        </type>
+
+        <type>
+            <name>com.uz.wcf.bot.wbb.thread.time</name>
+            <definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
+            <classname>wbb\system\condition\uzbot\UzbotThreadIntegerPropertyCondition</classname>
+            <conditionobject>com.woltlab.wbb.thread</conditionobject>
+            <conditiongroup>general</conditiongroup>
+        </type>
+        <type>
+            <name>com.uz.wcf.bot.wbb.thread.lastPostTime</name>
+            <definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
+            <classname>wbb\system\condition\uzbot\UzbotThreadIntegerPropertyCondition</classname>
+            <conditionobject>com.woltlab.wbb.thread</conditionobject>
+            <conditiongroup>general</conditiongroup>
+        </type>
+
+        <type>
+            <name>com.uz.wcf.bot.wbb.replies</name>
+            <definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
+            <classname>wbb\system\condition\thread\ThreadIntegerPropertyCondition</classname>
+            <conditionobject>com.woltlab.wbb.thread</conditionobject>
+            <conditiongroup>general</conditiongroup>
+            <minvalue>0</minvalue>
+        </type>
+        <type>
+            <name>com.uz.wcf.bot.wbb.views</name>
+            <definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
+            <classname>wbb\system\condition\thread\ThreadIntegerPropertyCondition</classname>
+            <conditionobject>com.woltlab.wbb.thread</conditionobject>
+            <conditiongroup>general</conditiongroup>
+            <minvalue>0</minvalue>
+        </type>
+        <type>
+            <name>com.uz.wcf.bot.wbb.board</name>
+            <definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
+            <classname>wbb\system\condition\thread\ThreadBoardCondition</classname>
+            <conditionobject>com.woltlab.wbb.thread</conditionobject>
+            <conditiongroup>general</conditiongroup>
+        </type>
+
+        <type>
+            <name>com.uz.wcf.bot.wbb.state</name>
+            <definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
+            <classname>wbb\system\condition\thread\ThreadStateCondition</classname>
+            <conditionobject>com.woltlab.wbb.thread</conditionobject>
+            <conditiongroup>general</conditiongroup>
+        </type>
+
+        <type>
+            <name>com.uz.wcf.bot.wbb.state.label</name>
+            <definitionname>com.uz.wcf.bot.condition.wbb</definitionname>
+            <classname>wbb\system\condition\uzbot\UzbotThreadLabelStateCondition</classname>
+            <conditionobject>com.woltlab.wbb.thread</conditionobject>
+            <conditiongroup>general</conditiongroup>
+        </type>
+    </import>
 </data>

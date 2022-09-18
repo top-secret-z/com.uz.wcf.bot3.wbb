@@ -1,139 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/uzbotType.xsd">
-	<import>
-		<uzbotType name="wbb_postChange">
-			<typeID>30</typeID>
-			<application>WBB</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>1</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>30</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="wbb_postCount">
-			<typeID>31</typeID>
-			<application>WBB</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>1</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>1</needCount>
-			<needCountAction>postCountAction</needCountAction>
-			<needCountNo>postTop</needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>31</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="wbb_postModeration">
-			<typeID>32</typeID>
-			<application>WBB</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>1</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>32</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="wbb_threadModeration">
-			<typeID>40</typeID>
-			<application>WBB</application>
-			<canCondense>1</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>1</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>41</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="wbb_threadModification">
-			<typeID>41</typeID>
-			<application>WBB</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>1</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>0</needNotify>
-			<sortOrder>42</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="wbb_threadNew">
-			<typeID>42</typeID>
-			<application>WBB</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>1</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>43</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="wbb_topPoster">
-			<typeID>43</typeID>
-			<application>WBB</application>
-			<canCondense>1</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>45</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="wbb_statistics">
-			<typeID>44</typeID>
-			<application>WBB</application>
-			<canCondense>0</canCondense>
-			<hasAffected>0</hasAffected>
-			<allowGuest>0</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>44</sortOrder>
-		</uzbotType>
-		
-		<uzbotType name="wbb_bestAnswer">
-			<typeID>45</typeID>
-			<application>WBB52</application>
-			<canCondense>0</canCondense>
-			<hasAffected>1</hasAffected>
-			<allowGuest>1</allowGuest>
-			<canChangeAffected>0</canChangeAffected>
-			<needCount>0</needCount>
-			<needCountAction></needCountAction>
-			<needCountNo></needCountNo>
-			<neededModule></neededModule>
-			<needNotify>1</needNotify>
-			<sortOrder>40</sortOrder>
-		</uzbotType>
-	</import>
+    <import>
+        <uzbotType name="wbb_postChange">
+            <typeID>30</typeID>
+            <application>WBB</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>1</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>30</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="wbb_postCount">
+            <typeID>31</typeID>
+            <application>WBB</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>1</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>1</needCount>
+            <needCountAction>postCountAction</needCountAction>
+            <needCountNo>postTop</needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>31</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="wbb_postModeration">
+            <typeID>32</typeID>
+            <application>WBB</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>1</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>32</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="wbb_threadModeration">
+            <typeID>40</typeID>
+            <application>WBB</application>
+            <canCondense>1</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>1</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>41</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="wbb_threadModification">
+            <typeID>41</typeID>
+            <application>WBB</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>1</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>0</needNotify>
+            <sortOrder>42</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="wbb_threadNew">
+            <typeID>42</typeID>
+            <application>WBB</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>1</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>43</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="wbb_topPoster">
+            <typeID>43</typeID>
+            <application>WBB</application>
+            <canCondense>1</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>45</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="wbb_statistics">
+            <typeID>44</typeID>
+            <application>WBB</application>
+            <canCondense>0</canCondense>
+            <hasAffected>0</hasAffected>
+            <allowGuest>0</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>44</sortOrder>
+        </uzbotType>
+
+        <uzbotType name="wbb_bestAnswer">
+            <typeID>45</typeID>
+            <application>WBB52</application>
+            <canCondense>0</canCondense>
+            <hasAffected>1</hasAffected>
+            <allowGuest>1</allowGuest>
+            <canChangeAffected>0</canChangeAffected>
+            <needCount>0</needCount>
+            <needCountAction></needCountAction>
+            <needCountNo></needCountNo>
+            <neededModule></neededModule>
+            <needNotify>1</needNotify>
+            <sortOrder>40</sortOrder>
+        </uzbotType>
+    </import>
 </data>
