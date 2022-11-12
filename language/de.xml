@@ -1,150 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.uzbot_data_limit_thread"><![CDATA[Themen]]></item>
-		<item name="wcf.acp.option.uzbot_data_limit_thread.description"><![CDATA[Anzahl der Themen, die bei jedem Bot-Durchlauf bearbeitet werden (Modifizierung).]]></item>
-	</category>
-	
-	<category name="wcf.acp.uzbot">
-		<item name="wcf.acp.uzbot.log.wbb.thread.modified"><![CDATA[{$action} - betroffene Themen: {$threadIDs}]]></item>
-		<item name="wcf.acp.uzbot.log.wbb.thread.affected"><![CDATA[Anzahl der betroffenen Themen gemäß Bedingungen: {$count}]]></item>
-		
-		<item name="wcf.acp.uzbot.notify.post"><![CDATA[Forum - Beitrag]]></item>
-		<item name="wcf.acp.uzbot.notify.post.setting"><![CDATA[Beitrag - Einstellungen]]></item>
-		<item name="wcf.acp.uzbot.notify.post.status"><![CDATA[Status]]></item>
-		<item name="wcf.acp.uzbot.notify.post.status.isClosed"><![CDATA[Bearbeitung verboten]]></item>
-		<item name="wcf.acp.uzbot.notify.post.status.isDisabled"><![CDATA[deaktiviert]]></item>
-		<item name="wcf.acp.uzbot.notify.post.status.postIsOfficial"><![CDATA[offizieller Beitrag]]></item>
-		<item name="wcf.acp.uzbot.notify.post.threadID"><![CDATA[Thema]]></item>
-		<item name="wcf.acp.uzbot.notify.post.threadID.description"><![CDATA[ID des Themas oder 0 bei bestimmten Bots; siehe Hilfe.]]></item>
-		<item name="wcf.acp.uzbot.notify.post.threadID.error.notValid"><![CDATA[Die ID des Themas ist ungültig, das Thema existiert nicht.]]></item>
-		
-		<item name="wcf.acp.uzbot.notify.thread"><![CDATA[Forum - Thema]]></item>
-		<item name="wcf.acp.uzbot.notify.thread.boardID"><![CDATA[Forum]]></item>
-		<item name="wcf.acp.uzbot.notify.thread.error.notValid"><![CDATA[Das gewählte Forum ist ungültig.]]></item>
-		<item name="wcf.acp.uzbot.notify.thread.error.notAllowedOnThreadNew"><![CDATA[Das gewählte Forum darf nicht genutzt werden, weil es durch diesen Bot überwacht wird.]]></item>
-		<item name="wcf.acp.uzbot.notify.thread.error.notConfigured"><![CDATA[Es muss ein Forum gewählt werden.]]></item>
-		<item name="wcf.acp.uzbot.notify.thread.setting"><![CDATA[Thema-Einstellungen]]></item>
-		<item name="wcf.acp.uzbot.notify.thread.status"><![CDATA[Status]]></item>
-		<item name="wcf.acp.uzbot.notify.thread.status.isClosed"><![CDATA[geschlossen]]></item>
-		<item name="wcf.acp.uzbot.notify.thread.status.isDisabled"><![CDATA[deaktiviert]]></item>
-		<item name="wcf.acp.uzbot.notify.thread.status.isDone"><![CDATA[erledigt]]></item>
-		<item name="wcf.acp.uzbot.notify.thread.status.isSticky"><![CDATA[angepinnt]]></item>
-		<item name="wcf.acp.uzbot.notify.thread.status.threadIsOfficial"><![CDATA[offizieller Beitrag]]></item>
-		<item name="wcf.acp.uzbot.notify.type.post"><![CDATA[Forum - Beitrag]]></item>
-		<item name="wcf.acp.uzbot.notify.type.thread"><![CDATA[Forum - Thema]]></item>
-		
-		<item name="wcf.acp.uzbot.type.wbb_bestAnswer"><![CDATA[Forum - Thema - Hilfreichste Antwort]]></item>
-		<item name="wcf.acp.uzbot.type.wbb_postChange"><![CDATA[Forum - Beitrag - Änderung durch Autor]]></item>
-		<item name="wcf.acp.uzbot.type.wbb_postCount"><![CDATA[Forum - Beitrag - Anzahl]]></item>
-		<item name="wcf.acp.uzbot.type.wbb_postModeration"><![CDATA[Forum - Beitrag - Moderation]]></item>
-		<item name="wcf.acp.uzbot.type.wbb_threadModeration"><![CDATA[Forum - Thema - Moderation]]></item>
-		<item name="wcf.acp.uzbot.type.wbb_threadModification"><![CDATA[Forum - Thema - Modifizierung]]></item>
-		<item name="wcf.acp.uzbot.type.wbb_threadNew"><![CDATA[Forum - Thema - Neu]]></item>
-		<item name="wcf.acp.uzbot.type.wbb_statistics"><![CDATA[Forum - Statistik]]></item>
-		<item name="wcf.acp.uzbot.type.wbb_topPoster"><![CDATA[Forum - Top-Poster]]></item>
-		
-		<item name="wcf.acp.uzbot.wbb.action.changed"><![CDATA[geändert]]></item>
-		<item name="wcf.acp.uzbot.wbb.action.deleted"><![CDATA[gelöscht]]></item>
-		
-		<item name="wcf.acp.uzbot.wbb.condition.days.time"><![CDATA[Tage seit Erstellung]]></item>
-		<item name="wcf.acp.uzbot.wbb.condition.days.lastPostTime"><![CDATA[Tage seit letzter Antwort]]></item>
-		<item name="wcf.acp.uzbot.wbb.condition.label"><![CDATA[Label-Status]]></item>
-		<item name="wcf.acp.uzbot.wbb.condition.label.error.conflict"><![CDATA[„Hat Label“ und „Hat kein Label“ können nicht gleichzeitig ausgewählt werden.]]></item>
-		<item name="wcf.acp.uzbot.wbb.condition.label.hasLabels"><![CDATA[Hat Label]]></item>
-		<item name="wcf.acp.uzbot.wbb.condition.label.hasNoLabels"><![CDATA[Hat keine Label]]></item>
-		
-		<item name="wcf.acp.uzbot.wbb.error.executerInvalid"><![CDATA[Der ausführende Benutzer ist ungülig. Der Bot wurde deaktiviert.]]></item>
-		
-		<item name="wcf.acp.uzbot.wbb.postChange.action"><![CDATA[Überwachte Aktionen]]></item>
-		<item name="wcf.acp.uzbot.wbb.postChange.action.error.notConfigured"><![CDATA[Es muss mindestens eine Aktion ausgewählt werden.]]></item>
-		<item name="wcf.acp.uzbot.wbb.postChange.delete"><![CDATA[Löschen überwachen]]></item>
-		<item name="wcf.acp.uzbot.wbb.postChange.update"><![CDATA[Ändern überwachen]]></item>
-		
-		<item name="wcf.acp.uzbot.wbb.postCount.action"><![CDATA[Aktion]]></item>
-		<item name="wcf.acp.uzbot.wbb.postCount.postTop"><![CDATA[Benutzer mit den meisten Beiträgen]]></item>
-		<item name="wcf.acp.uzbot.wbb.postCount.postTotal"><![CDATA[Gesamtzahl der Beiträge]]></item>
-		<item name="wcf.acp.uzbot.wbb.postCount.postX"><![CDATA[x. Beitrag eines Benutzers]]></item>
-		
-		<item name="wcf.acp.uzbot.wbb.postModeration.action"><![CDATA[Überwachte Aktion(en)]]></item>
-		<item name="wcf.acp.uzbot.wbb.postModeration.action.error.notConfigured"><![CDATA[Es muss mindestens eine Aktion ausgewählt werden.]]></item>
-		<item name="wcf.acp.uzbot.wbb.postModeration.close"><![CDATA[Bearbeitung verbieten]]></item>
-		<item name="wcf.acp.uzbot.wbb.postModeration.delete"><![CDATA[endgültig löschen]]></item>
-		<item name="wcf.acp.uzbot.wbb.postModeration.disable"><![CDATA[deaktivieren]]></item>
-		<item name="wcf.acp.uzbot.wbb.postModeration.edit"><![CDATA[editieren]]></item>
-		<item name="wcf.acp.uzbot.wbb.postModeration.enable"><![CDATA[aktivieren / freischalten]]></item>
-		<item name="wcf.acp.uzbot.wbb.postModeration.merge"><![CDATA[zusammenfügen]]></item>
-		<item name="wcf.acp.uzbot.wbb.postModeration.move"><![CDATA[verschieben]]></item>
-		<item name="wcf.acp.uzbot.wbb.postModeration.open"><![CDATA[Bearbeitung erlauben]]></item>
-		<item name="wcf.acp.uzbot.wbb.postModeration.restore"><![CDATA[wiederherstellen]]></item>
-		<item name="wcf.acp.uzbot.wbb.postModeration.trash"><![CDATA[löschen (Papierkorb)]]></item>
-		
-		<item name="wcf.acp.uzbot.wbb.thread.condition"><![CDATA[Themen-Bedingungen]]></item>
-		<item name="wcf.acp.uzbot.wbb.thread.condition.description"><![CDATA[Nur Themen, die die nachfolgenden Bedingungen erfüllen, sind von der Aktion betroffen. Werden keine Bedingungen konfiguriert, wird der Bot auf alle Themen angewendet.]]></item>
-		
-		<item name="wcf.acp.uzbot.wbb.threadModification.action"><![CDATA[Auszuführende Aktion(en)]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.error.notConfigured"><![CDATA[Es muss mindestens eine Aktion ausgewählt werden.]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.boardID"><![CDATA[Forum für das Verschieben]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.boardID.error.notValid"><![CDATA[Es muss ein gültiges Forum gewählt werden.]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.close"><![CDATA[Themen geschlossen]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.delete"><![CDATA[Themen gelöscht]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.deleteLabels"><![CDATA[Themen-Label gelöscht]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.disable"><![CDATA[Themen deaktiviert]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.done"><![CDATA[Themen als erledigt markiert]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.enable"><![CDATA[Themen aktiviert]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.markAsDone"><![CDATA[Themen als erledigt markiert]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.markAsUndone"><![CDATA[Themen als unerledigt markiert]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.move"><![CDATA[Themen verschoben]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.open"><![CDATA[Themen geöffnet]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.restore"><![CDATA[Themen wiederhergestellt]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.scrape"><![CDATA[Themen oben gelöst]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.setLabels"><![CDATA[Themen-Label gesetzt]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.sticky"><![CDATA[Themen oben angeheftet]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.trash"><![CDATA[Themen gelöscht (Papierkorb)]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.unannounce"><![CDATA[Ankündigungen gelöscht]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.action.undone"><![CDATA[Themen als unerledigt markiert]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.executer"><![CDATA[Ausführender Benutzer]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.executer.description"><![CDATA[Dieser Benutzer wird für das Themen-Änderungsprotokoll benötigt.]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.executer.error.empty"><![CDATA[Es muss ein Benutzername angegeben werden.]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.executer.error.invalid"><![CDATA[Der Benutzer existiert nicht.]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.noFound"><![CDATA[Keine Themen gefunden.]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModification.setting"><![CDATA[Einstellungen]]></item>
-		
-		<item name="wcf.acp.uzbot.wbb.threadModeration.action"><![CDATA[Überwachte Aktion(en)]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.action.error.notConfigured"><![CDATA[Es muss mindestens eine Aktion ausgewählt werden.]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.author"><![CDATA[Verfasser]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.authorOnly"><![CDATA[nur den Verfasser des Themas als betroffenen Benutzer nutzen]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.changeTopic"><![CDATA[Titel ändern]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.close"><![CDATA[schließen]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.disable"><![CDATA[deaktivieren]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.done"><![CDATA[als erledigt markieren]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.enable"><![CDATA[aktivieren / freischalten]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.merge"><![CDATA[zusammenfügen]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.move"><![CDATA[verschieben]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.open"><![CDATA[öffnen]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.restore"><![CDATA[wiederherstellen]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.scrape"><![CDATA[oben lösen]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.setAsAnnouncement"><![CDATA[zu Ankündigung machen]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.setLabel"><![CDATA[Label ändern]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.sticky"><![CDATA[oben anheften]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.trash"><![CDATA[löschen (Papierkorb)]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.undone"><![CDATA[als unerledigt markieren]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadModeration.unsetAsAnnouncement"><![CDATA[Ankündigung löschen]]></item>
-		
-		<item name="wcf.acp.uzbot.wbb.threadNew.threadNewBoardIDs"><![CDATA[Überwachte Foren]]></item>
-		<item name="wcf.acp.uzbot.wbb.threadNew.threadNewBoardIDs.error.notConfigured"><![CDATA[Es muss mindestens ein Forum ausgewählt werden.]]></item>
-		
-		<item name="wcf.acp.uzbot.wbb.topPoster.count"><![CDATA[Anzahl der Top-Poster]]></item>
-		<item name="wcf.acp.uzbot.wbb.topPoster.interval"><![CDATA[Intervall]]></item>
-		<item name="wcf.acp.uzbot.wbb.topPoster.interval.week"><![CDATA[Woche]]></item>
-		<item name="wcf.acp.uzbot.wbb.topPoster.interval.month"><![CDATA[Monat]]></item>
-		<item name="wcf.acp.uzbot.wbb.topPoster.interval.quarter"><![CDATA[Quartal]]></item>
-		
-		<item name="wcf.acp.uzbot.wbb.uzbotBoardIDs"><![CDATA[Überwachte Foren]]></item>
-		<item name="wcf.acp.uzbot.wbb.uzbotBoardIDs.error.notConfigured"><![CDATA[Es muss mindestens ein Forum ausgewählt werden.]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.30"><![CDATA[Forum - Beitrag - Änderung durch den Autor]]></item>
-		<item name="wcf.acp.uzbot.help.type.30.description"><![CDATA[<p>Dieser Bot überwacht die Änderung oder das Löschen von Beiträgen durch den Verfasser und erstellt eine Benachrichtigung, wenn ein Benutzer seinen Beitrag ändert oder löscht. Die Moderation von Beiträgen wird durch diesen Bot nicht erfasst.</p>
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.uzbot_data_limit_thread"><![CDATA[Themen]]></item>
+        <item name="wcf.acp.option.uzbot_data_limit_thread.description"><![CDATA[Anzahl der Themen, die bei jedem Bot-Durchlauf bearbeitet werden (Modifizierung).]]></item>
+    </category>
+
+    <category name="wcf.acp.uzbot">
+        <item name="wcf.acp.uzbot.log.wbb.thread.modified"><![CDATA[{$action} - betroffene Themen: {$threadIDs}]]></item>
+        <item name="wcf.acp.uzbot.log.wbb.thread.affected"><![CDATA[Anzahl der betroffenen Themen gemäß Bedingungen: {$count}]]></item>
+
+        <item name="wcf.acp.uzbot.notify.post"><![CDATA[Forum - Beitrag]]></item>
+        <item name="wcf.acp.uzbot.notify.post.setting"><![CDATA[Beitrag - Einstellungen]]></item>
+        <item name="wcf.acp.uzbot.notify.post.status"><![CDATA[Status]]></item>
+        <item name="wcf.acp.uzbot.notify.post.status.isClosed"><![CDATA[Bearbeitung verboten]]></item>
+        <item name="wcf.acp.uzbot.notify.post.status.isDisabled"><![CDATA[deaktiviert]]></item>
+        <item name="wcf.acp.uzbot.notify.post.status.postIsOfficial"><![CDATA[offizieller Beitrag]]></item>
+        <item name="wcf.acp.uzbot.notify.post.threadID"><![CDATA[Thema]]></item>
+        <item name="wcf.acp.uzbot.notify.post.threadID.description"><![CDATA[ID des Themas oder 0 bei bestimmten Bots; siehe Hilfe.]]></item>
+        <item name="wcf.acp.uzbot.notify.post.threadID.error.notValid"><![CDATA[Die ID des Themas ist ungültig, das Thema existiert nicht.]]></item>
+
+        <item name="wcf.acp.uzbot.notify.thread"><![CDATA[Forum - Thema]]></item>
+        <item name="wcf.acp.uzbot.notify.thread.boardID"><![CDATA[Forum]]></item>
+        <item name="wcf.acp.uzbot.notify.thread.error.notValid"><![CDATA[Das gewählte Forum ist ungültig.]]></item>
+        <item name="wcf.acp.uzbot.notify.thread.error.notAllowedOnThreadNew"><![CDATA[Das gewählte Forum darf nicht genutzt werden, weil es durch diesen Bot überwacht wird.]]></item>
+        <item name="wcf.acp.uzbot.notify.thread.error.notConfigured"><![CDATA[Es muss ein Forum gewählt werden.]]></item>
+        <item name="wcf.acp.uzbot.notify.thread.setting"><![CDATA[Thema-Einstellungen]]></item>
+        <item name="wcf.acp.uzbot.notify.thread.status"><![CDATA[Status]]></item>
+        <item name="wcf.acp.uzbot.notify.thread.status.isClosed"><![CDATA[geschlossen]]></item>
+        <item name="wcf.acp.uzbot.notify.thread.status.isDisabled"><![CDATA[deaktiviert]]></item>
+        <item name="wcf.acp.uzbot.notify.thread.status.isDone"><![CDATA[erledigt]]></item>
+        <item name="wcf.acp.uzbot.notify.thread.status.isSticky"><![CDATA[angepinnt]]></item>
+        <item name="wcf.acp.uzbot.notify.thread.status.threadIsOfficial"><![CDATA[offizieller Beitrag]]></item>
+        <item name="wcf.acp.uzbot.notify.type.post"><![CDATA[Forum - Beitrag]]></item>
+        <item name="wcf.acp.uzbot.notify.type.thread"><![CDATA[Forum - Thema]]></item>
+
+        <item name="wcf.acp.uzbot.type.wbb_bestAnswer"><![CDATA[Forum - Thema - Hilfreichste Antwort]]></item>
+        <item name="wcf.acp.uzbot.type.wbb_postChange"><![CDATA[Forum - Beitrag - Änderung durch Autor]]></item>
+        <item name="wcf.acp.uzbot.type.wbb_postCount"><![CDATA[Forum - Beitrag - Anzahl]]></item>
+        <item name="wcf.acp.uzbot.type.wbb_postModeration"><![CDATA[Forum - Beitrag - Moderation]]></item>
+        <item name="wcf.acp.uzbot.type.wbb_threadModeration"><![CDATA[Forum - Thema - Moderation]]></item>
+        <item name="wcf.acp.uzbot.type.wbb_threadModification"><![CDATA[Forum - Thema - Modifizierung]]></item>
+        <item name="wcf.acp.uzbot.type.wbb_threadNew"><![CDATA[Forum - Thema - Neu]]></item>
+        <item name="wcf.acp.uzbot.type.wbb_statistics"><![CDATA[Forum - Statistik]]></item>
+        <item name="wcf.acp.uzbot.type.wbb_topPoster"><![CDATA[Forum - Top-Poster]]></item>
+
+        <item name="wcf.acp.uzbot.wbb.action.changed"><![CDATA[geändert]]></item>
+        <item name="wcf.acp.uzbot.wbb.action.deleted"><![CDATA[gelöscht]]></item>
+
+        <item name="wcf.acp.uzbot.wbb.condition.days.time"><![CDATA[Tage seit Erstellung]]></item>
+        <item name="wcf.acp.uzbot.wbb.condition.days.lastPostTime"><![CDATA[Tage seit letzter Antwort]]></item>
+        <item name="wcf.acp.uzbot.wbb.condition.label"><![CDATA[Label-Status]]></item>
+        <item name="wcf.acp.uzbot.wbb.condition.label.error.conflict"><![CDATA[„Hat Label“ und „Hat kein Label“ können nicht gleichzeitig ausgewählt werden.]]></item>
+        <item name="wcf.acp.uzbot.wbb.condition.label.hasLabels"><![CDATA[Hat Label]]></item>
+        <item name="wcf.acp.uzbot.wbb.condition.label.hasNoLabels"><![CDATA[Hat keine Label]]></item>
+
+        <item name="wcf.acp.uzbot.wbb.error.executerInvalid"><![CDATA[Der ausführende Benutzer ist ungülig. Der Bot wurde deaktiviert.]]></item>
+
+        <item name="wcf.acp.uzbot.wbb.postChange.action"><![CDATA[Überwachte Aktionen]]></item>
+        <item name="wcf.acp.uzbot.wbb.postChange.action.error.notConfigured"><![CDATA[Es muss mindestens eine Aktion ausgewählt werden.]]></item>
+        <item name="wcf.acp.uzbot.wbb.postChange.delete"><![CDATA[Löschen überwachen]]></item>
+        <item name="wcf.acp.uzbot.wbb.postChange.update"><![CDATA[Ändern überwachen]]></item>
+
+        <item name="wcf.acp.uzbot.wbb.postCount.action"><![CDATA[Aktion]]></item>
+        <item name="wcf.acp.uzbot.wbb.postCount.postTop"><![CDATA[Benutzer mit den meisten Beiträgen]]></item>
+        <item name="wcf.acp.uzbot.wbb.postCount.postTotal"><![CDATA[Gesamtzahl der Beiträge]]></item>
+        <item name="wcf.acp.uzbot.wbb.postCount.postX"><![CDATA[x. Beitrag eines Benutzers]]></item>
+
+        <item name="wcf.acp.uzbot.wbb.postModeration.action"><![CDATA[Überwachte Aktion(en)]]></item>
+        <item name="wcf.acp.uzbot.wbb.postModeration.action.error.notConfigured"><![CDATA[Es muss mindestens eine Aktion ausgewählt werden.]]></item>
+        <item name="wcf.acp.uzbot.wbb.postModeration.close"><![CDATA[Bearbeitung verbieten]]></item>
+        <item name="wcf.acp.uzbot.wbb.postModeration.delete"><![CDATA[endgültig löschen]]></item>
+        <item name="wcf.acp.uzbot.wbb.postModeration.disable"><![CDATA[deaktivieren]]></item>
+        <item name="wcf.acp.uzbot.wbb.postModeration.edit"><![CDATA[editieren]]></item>
+        <item name="wcf.acp.uzbot.wbb.postModeration.enable"><![CDATA[aktivieren / freischalten]]></item>
+        <item name="wcf.acp.uzbot.wbb.postModeration.merge"><![CDATA[zusammenfügen]]></item>
+        <item name="wcf.acp.uzbot.wbb.postModeration.move"><![CDATA[verschieben]]></item>
+        <item name="wcf.acp.uzbot.wbb.postModeration.open"><![CDATA[Bearbeitung erlauben]]></item>
+        <item name="wcf.acp.uzbot.wbb.postModeration.restore"><![CDATA[wiederherstellen]]></item>
+        <item name="wcf.acp.uzbot.wbb.postModeration.trash"><![CDATA[löschen (Papierkorb)]]></item>
+
+        <item name="wcf.acp.uzbot.wbb.thread.condition"><![CDATA[Themen-Bedingungen]]></item>
+        <item name="wcf.acp.uzbot.wbb.thread.condition.description"><![CDATA[Nur Themen, die die nachfolgenden Bedingungen erfüllen, sind von der Aktion betroffen. Werden keine Bedingungen konfiguriert, wird der Bot auf alle Themen angewendet.]]></item>
+
+        <item name="wcf.acp.uzbot.wbb.threadModification.action"><![CDATA[Auszuführende Aktion(en)]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.error.notConfigured"><![CDATA[Es muss mindestens eine Aktion ausgewählt werden.]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.boardID"><![CDATA[Forum für das Verschieben]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.boardID.error.notValid"><![CDATA[Es muss ein gültiges Forum gewählt werden.]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.close"><![CDATA[Themen geschlossen]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.delete"><![CDATA[Themen gelöscht]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.deleteLabels"><![CDATA[Themen-Label gelöscht]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.disable"><![CDATA[Themen deaktiviert]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.done"><![CDATA[Themen als erledigt markiert]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.enable"><![CDATA[Themen aktiviert]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.markAsDone"><![CDATA[Themen als erledigt markiert]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.markAsUndone"><![CDATA[Themen als unerledigt markiert]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.move"><![CDATA[Themen verschoben]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.open"><![CDATA[Themen geöffnet]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.restore"><![CDATA[Themen wiederhergestellt]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.scrape"><![CDATA[Themen oben gelöst]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.setLabels"><![CDATA[Themen-Label gesetzt]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.sticky"><![CDATA[Themen oben angeheftet]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.trash"><![CDATA[Themen gelöscht (Papierkorb)]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.unannounce"><![CDATA[Ankündigungen gelöscht]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.action.undone"><![CDATA[Themen als unerledigt markiert]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.executer"><![CDATA[Ausführender Benutzer]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.executer.description"><![CDATA[Dieser Benutzer wird für das Themen-Änderungsprotokoll benötigt.]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.executer.error.empty"><![CDATA[Es muss ein Benutzername angegeben werden.]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.executer.error.invalid"><![CDATA[Der Benutzer existiert nicht.]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.noFound"><![CDATA[Keine Themen gefunden.]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModification.setting"><![CDATA[Einstellungen]]></item>
+
+        <item name="wcf.acp.uzbot.wbb.threadModeration.action"><![CDATA[Überwachte Aktion(en)]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.action.error.notConfigured"><![CDATA[Es muss mindestens eine Aktion ausgewählt werden.]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.author"><![CDATA[Verfasser]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.authorOnly"><![CDATA[nur den Verfasser des Themas als betroffenen Benutzer nutzen]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.changeTopic"><![CDATA[Titel ändern]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.close"><![CDATA[schließen]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.disable"><![CDATA[deaktivieren]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.done"><![CDATA[als erledigt markieren]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.enable"><![CDATA[aktivieren / freischalten]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.merge"><![CDATA[zusammenfügen]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.move"><![CDATA[verschieben]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.open"><![CDATA[öffnen]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.restore"><![CDATA[wiederherstellen]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.scrape"><![CDATA[oben lösen]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.setAsAnnouncement"><![CDATA[zu Ankündigung machen]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.setLabel"><![CDATA[Label ändern]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.sticky"><![CDATA[oben anheften]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.trash"><![CDATA[löschen (Papierkorb)]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.undone"><![CDATA[als unerledigt markieren]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadModeration.unsetAsAnnouncement"><![CDATA[Ankündigung löschen]]></item>
+
+        <item name="wcf.acp.uzbot.wbb.threadNew.threadNewBoardIDs"><![CDATA[Überwachte Foren]]></item>
+        <item name="wcf.acp.uzbot.wbb.threadNew.threadNewBoardIDs.error.notConfigured"><![CDATA[Es muss mindestens ein Forum ausgewählt werden.]]></item>
+
+        <item name="wcf.acp.uzbot.wbb.topPoster.count"><![CDATA[Anzahl der Top-Poster]]></item>
+        <item name="wcf.acp.uzbot.wbb.topPoster.interval"><![CDATA[Intervall]]></item>
+        <item name="wcf.acp.uzbot.wbb.topPoster.interval.week"><![CDATA[Woche]]></item>
+        <item name="wcf.acp.uzbot.wbb.topPoster.interval.month"><![CDATA[Monat]]></item>
+        <item name="wcf.acp.uzbot.wbb.topPoster.interval.quarter"><![CDATA[Quartal]]></item>
+
+        <item name="wcf.acp.uzbot.wbb.uzbotBoardIDs"><![CDATA[Überwachte Foren]]></item>
+        <item name="wcf.acp.uzbot.wbb.uzbotBoardIDs.error.notConfigured"><![CDATA[Es muss mindestens ein Forum ausgewählt werden.]]></item>
+
+        <item name="wcf.acp.uzbot.help.type.30"><![CDATA[Forum - Beitrag - Änderung durch den Autor]]></item>
+        <item name="wcf.acp.uzbot.help.type.30.description"><![CDATA[<p>Dieser Bot überwacht die Änderung oder das Löschen von Beiträgen durch den Verfasser und erstellt eine Benachrichtigung, wenn ein Benutzer seinen Beitrag ändert oder löscht. Die Moderation von Beiträgen wird durch diesen Bot nicht erfasst.</p>
 <p>Der Verfasser des Beitrags ist der betroffene Benutzer und kann direkt adressiert werden. Bei Bedarf kann auch ein Beitrag direkt im Thema mit dem erkannten Beitrag erstellt werden. Dazu muss unter Benachrichtigung 0 als Thema-ID bei „Thema“ eingegeben werden.</p>
 <br><p>Durch Konfiguration von Foren und der Allgemeinen Benutzer-Bedingungen kann die Überwachung auf bestimmte Foren bzw. Benutzer begrenzt werden.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
@@ -180,9 +180,9 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.31"><![CDATA[Forum - Beitrag - Anzahl]]></item>
-		<item name="wcf.acp.uzbot.help.type.31.description"><![CDATA[<p>Dieser Bot überwacht die Veröffentlichung von Beiträgen und erstellt Benachrichtigungen, wenn ein Benutzer oder Gast einen neuen Beitrag verfasst hat und dieser veröffentlicht/freigeschaltet wird.</p>
+
+        <item name="wcf.acp.uzbot.help.type.31"><![CDATA[Forum - Beitrag - Anzahl]]></item>
+        <item name="wcf.acp.uzbot.help.type.31.description"><![CDATA[<p>Dieser Bot überwacht die Veröffentlichung von Beiträgen und erstellt Benachrichtigungen, wenn ein Benutzer oder Gast einen neuen Beitrag verfasst hat und dieser veröffentlicht/freigeschaltet wird.</p>
 <p>Der Verfasser des Beitrags ist der betroffene Benutzer und kann direkt adressiert werden. Bei Bedarf kann auch ein Beitrag direkt im Thema mit dem erkannten Beitrag erstellt werden. Dazu muss unter Benachrichtigung 0 als Thema-ID bei „Thema“ eingegeben werden.</p>
 <br><p>Bei „Gesamtzahl der Beiträge“ erfolgt die Benachrichtigung, wenn die Gesamtzahl einen der unter „Auslösewerte“ eingegebenen Wert erreicht hat.</p>
 <p>Bei „x. Beitrag eines Benutzer“ erfolgt die Benachrichtigung, wenn der betroffenen Benutzer eine der unter „Auslösewerte“ eingegebene Anzahl an Beiträgen erreicht hat.</p>
@@ -219,9 +219,9 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.32"><![CDATA[Forum - Beitrag - Moderation]]></item>
-		<item name="wcf.acp.uzbot.help.type.32.description"><![CDATA[<p>Dieser Bot überwacht die Moderation von Beiträgen und erstellt Benachrichtigungen, wenn ein Beitrag entsprechend der ausgewählten Aktion(en) geändert wurde.</p>
+
+        <item name="wcf.acp.uzbot.help.type.32"><![CDATA[Forum - Beitrag - Moderation]]></item>
+        <item name="wcf.acp.uzbot.help.type.32.description"><![CDATA[<p>Dieser Bot überwacht die Moderation von Beiträgen und erstellt Benachrichtigungen, wenn ein Beitrag entsprechend der ausgewählten Aktion(en) geändert wurde.</p>
 <p>Der Verfasser des Beitrags ist der betroffene Benutzer und kann direkt adressiert werden. Bei Bedarf kann auch ein Beitrag direkt im Thema mit dem moderierten Beitrag erstellt werden. Dazu muss unter Benachrichtigung 0 als Thema-ID bei „Thema“ eingegeben werden.</p>
 <br><p>Durch Konfiguration von Foren und der Allgemeinen Benutzer-Bedingungen kann die Überwachung auf bestimmte Foren bzw. Benutzer begrenzt werden. Durch Wahl des Betroffenen Benutzers kann die Benachrichtigung entweder an den Moderator oder den Ersteller des Beitrags versendet werden.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
@@ -259,9 +259,9 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.40"><![CDATA[Forum - Thema - Moderation]]></item>
-		<item name="wcf.acp.uzbot.help.type.40.description"><![CDATA[<p>Dieser Bot überwacht die Moderation von Themen und erstellt Benachrichtigungen, wenn ein Thema entsprechend der ausgewählten Aktion(en) geändert wurde.</p>
+
+        <item name="wcf.acp.uzbot.help.type.40"><![CDATA[Forum - Thema - Moderation]]></item>
+        <item name="wcf.acp.uzbot.help.type.40.description"><![CDATA[<p>Dieser Bot überwacht die Moderation von Themen und erstellt Benachrichtigungen, wenn ein Thema entsprechend der ausgewählten Aktion(en) geändert wurde.</p>
 <p>Der Verfasser des Themas und, wenn nicht ausgeschlossen, die Verfasser von Beiträgen im Thema (Poster) sind die betroffenen Benutzer und können direkt adressiert werden. Bei Bedarf kann auch ein Beitrag direkt im moderierten Thema erstellt werden. Dazu muss unter Benachrichtigung 0 als Thema-ID bei „Thema“ eingegeben werden.</p>
 <br><p>Durch Konfiguration von Foren und der Allgemeinen Benutzer-Bedingungen kann die Überwachung auf bestimmte Foren bzw. Benutzer begrenzt werden. Durch Wahl des Betroffenen Benutzers kann die Benachrichtigung entweder an den Moderator oder den Ersteller des Themas und die Poster versendet werden.</p>
 <br><p>Hinweis: Es wird für jeden betroffenen Benutzer eine Benachrichtigung erstellt. Dies gilt auch für Benachrichtigungen ohne individuellen Empfänger wie Artikel, Themen oder Beiträge. Soll nur eine Benachrichtigung durch den Bot erstellt werden, so muss entweder bei Verfasser „nur den Verfasser des Themas als betroffenen Benutzer nutzen“ oder bei Betroffener Benutzer „Agierender Benutzer“ ausgewählt werden.</p>
@@ -298,9 +298,9 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.41"><![CDATA[Forum - Thema - Modifizierung]]></item>
-		<item name="wcf.acp.uzbot.help.type.41.description"><![CDATA[<p>Dieser Bot modifiziert ausgewählte Themen und erstellt Benachrichtigungen, wenn eine Aktion auf die betroffenen Themen angewendet wurde. Die Anzahl der Themen je Bot-Durchlauf kann konfiguriert werden (Standard: 300).</p>
+
+        <item name="wcf.acp.uzbot.help.type.41"><![CDATA[Forum - Thema - Modifizierung]]></item>
+        <item name="wcf.acp.uzbot.help.type.41.description"><![CDATA[<p>Dieser Bot modifiziert ausgewählte Themen und erstellt Benachrichtigungen, wenn eine Aktion auf die betroffenen Themen angewendet wurde. Die Anzahl der Themen je Bot-Durchlauf kann konfiguriert werden (Standard: 300).</p>
 <p>Die Verfasser der Themen und, wenn nicht ausgeschlossen, die Verfasser von Beiträgen im Thema (Poster) sind die betroffenen Benutzer und können direkt adressiert werden. Bei Bedarf kann auch ein Beitrag direkt im modifizierten Thema erstellt werden. Dazu muss unter Benachrichtigung 0 als Thema-ID bei „Thema“ eingegeben werden.</p>
 <br><p>Es kann mehr als eine Aktion gewählt werden. Die Aktionen werden in der Reihenfolge wie bei der Bot-Konfiguration abgearbeitet.</p>
 <br><p>Hinweis: Es wird für jeden betroffenen Benutzer eine Benachrichtigung erstellt. Dies gilt auch für Benachrichtigungen ohne individuellen Empfänger wie Artikel, Themen oder Beiträge. Soll nur eine Benachrichtigung je Thema durch den Bot erstellt werden, so muss bei Verfasser „nur den Verfasser des Themas als betroffenen Benutzer nutzen“ ausgewählt werden. Abhängig von Konfiguration und Anzahl der modifizierten Themen können sehr viele Benachrichtigungen erstellt werden.</p>
@@ -327,9 +327,9 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.42"><![CDATA[Forum - Thema - Neu]]></item>
-		<item name="wcf.acp.uzbot.help.type.42.description"><![CDATA[<p>Dieser Bot überwacht die Veröffentlichung von Themen und versendet eine Benachrichtigung, wenn ein Benutzer oder Gast ein neues Thema verfasst hat und dieses veröffentlicht/freigeschaltet wird.</p>
+
+        <item name="wcf.acp.uzbot.help.type.42"><![CDATA[Forum - Thema - Neu]]></item>
+        <item name="wcf.acp.uzbot.help.type.42.description"><![CDATA[<p>Dieser Bot überwacht die Veröffentlichung von Themen und versendet eine Benachrichtigung, wenn ein Benutzer oder Gast ein neues Thema verfasst hat und dieses veröffentlicht/freigeschaltet wird.</p>
 <p>Der Verfasser des Themas ist der betroffene Benutzer und kann direkt adressiert werden. Bei Bedarf kann auch ein Beitrag direkt im Thema erstellt werden. Dazu muss unter Benachrichtigung 0 als Thema-ID bei „Thema“ eingegeben werden.</p>
 <br><p>Es können mehrere Foren überwacht werden oder nur eines. Durch Konfiguration der Allgemeinen Benutzer-Bedingungen lassen sich zudem gezielt einzelne Benutzer überwachen.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
@@ -361,9 +361,9 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.43"><![CDATA[Forum - Top-Poster]]></item>
-		<item name="wcf.acp.uzbot.help.type.43.description"><![CDATA[<p>Dieser Bot ermittelt die Top-Poster (Beiträge) in einem wählbaren Zeitraum und versendet eine Benachrichtigung, wenn dieser Zeitraum abgelaufen ist. Es werden bis auf gelöschte Beiträge alle Beiträge der Benutzer berücksichtigt.</p>
+
+        <item name="wcf.acp.uzbot.help.type.43"><![CDATA[Forum - Top-Poster]]></item>
+        <item name="wcf.acp.uzbot.help.type.43.description"><![CDATA[<p>Dieser Bot ermittelt die Top-Poster (Beiträge) in einem wählbaren Zeitraum und versendet eine Benachrichtigung, wenn dieser Zeitraum abgelaufen ist. Es werden bis auf gelöschte Beiträge alle Beiträge der Benutzer berücksichtigt.</p>
 <p>Die ermittelten Top-Poster sind die betroffenen Benutzer und können direkt adressiert werden.</p>
 <br><p>Es können mehrere Foren überwacht werden oder nur eines. Durch Konfiguration der Allgemeinen Benutzer-Bedingungen lassen sich zudem gezielt einzelne Benutzer überwachen.</p>
 <br><p>Hinweis: Es wird für jeden betroffenen Benutzer eine Benachrichtigung erstellt. Dies gilt auch für Benachrichtigungen ohne individuellen Empfänger wie Artikel, Themen oder Beiträge. Soll nur eine Benachrichtigung durch den Bot erstellt werden, so muss „Ergebnisse zusammenfassen“ aktiviert werden.</p>
@@ -393,9 +393,9 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-		
-		<item name="wcf.acp.uzbot.help.type.44"><![CDATA[Forum - Statistik]]></item>
-		<item name="wcf.acp.uzbot.help.type.44.description"><![CDATA[<p>Dieser Bot eine tägliche Statistik mit Forum-Daten wie z.B. Foren, Themen und Beiträge.</p>
+
+        <item name="wcf.acp.uzbot.help.type.44"><![CDATA[Forum - Statistik]]></item>
+        <item name="wcf.acp.uzbot.help.type.44.description"><![CDATA[<p>Dieser Bot eine tägliche Statistik mit Forum-Daten wie z.B. Foren, Themen und Beiträge.</p>
 <p>Es muss nur eine Benachrichtigung konfiguriert werden. Betroffene Benutzer gibt es bei diesem Bot nicht.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
 <table><col width="200px">
@@ -417,8 +417,8 @@
 <tr><td><strong>-</strong></td><td>-</td></tr>
 </table>]]></item>
 
-		<item name="wcf.acp.uzbot.help.type.45"><![CDATA[Forum - Thema - Hilfreichste Antwort]]></item>
-		<item name="wcf.acp.uzbot.help.type.45.description"><![CDATA[<p>Dieser Bot überwacht das Auswählen eines Beitrags als Hilfreichste Antwort und versendet eine Benachrichtigung, wenn die Hilfreichste Antwort in einem Thema festgelegt wird.</p>
+        <item name="wcf.acp.uzbot.help.type.45"><![CDATA[Forum - Thema - Hilfreichste Antwort]]></item>
+        <item name="wcf.acp.uzbot.help.type.45.description"><![CDATA[<p>Dieser Bot überwacht das Auswählen eines Beitrags als Hilfreichste Antwort und versendet eine Benachrichtigung, wenn die Hilfreichste Antwort in einem Thema festgelegt wird.</p>
 <p>Der Autor des Beitrags ist der betroffene Benutzer und kann direkt adressiert werden. Bei Bedarf kann auch ein Beitrag direkt im Thema erstellt werden. Dazu muss unter Benachrichtigung 0 als Thema-ID bei „Thema“ eingegeben werden.</p>
 <br><p>Die folgenden Bot-spezifischen Platzhalter stehen zur Verfügung:</p>
 <table><col width="200px">
@@ -451,42 +451,42 @@
 <tr><td><strong>[user-profile]</strong></td><td>Link zum Profil des Benutzers</td></tr>
 <tr><td><strong>[@user-profile]</strong></td><td>Link zum Profil des Benutzers mit Benachrichtungsfunktion (nur Beiträge)</td></tr>
 </table>]]></item>
-	</category>
-	
-	<category name="wcf.uzbot">
-		<item name="wcf.uzbot.wbb.moderation.changeTopic"><![CDATA[Titel geändert]]></item>
-		<item name="wcf.uzbot.wbb.moderation.close"><![CDATA[geschlossen]]></item>
-		<item name="wcf.uzbot.wbb.moderation.delete"><![CDATA[gelöscht]]></item>
-		<item name="wcf.uzbot.wbb.moderation.disable"><![CDATA[deaktiviert]]></item>
-		<item name="wcf.uzbot.wbb.moderation.done"><![CDATA[als erledigt markiert]]></item>
-		<item name="wcf.uzbot.wbb.moderation.enable"><![CDATA[aktiviert]]></item>
-		<item name="wcf.uzbot.wbb.moderation.markAsDone"><![CDATA[als erledigt markiert]]></item>
-		<item name="wcf.uzbot.wbb.moderation.markAsUndone"><![CDATA[als unerledigt markiert]]></item>
-		<item name="wcf.uzbot.wbb.moderation.merge"><![CDATA[zusammengefügt]]></item>
-		<item name="wcf.uzbot.wbb.moderation.move"><![CDATA[verschoben]]></item>
-		<item name="wcf.uzbot.wbb.moderation.open"><![CDATA[geöffnet]]></item>
-		<item name="wcf.uzbot.wbb.moderation.restore"><![CDATA[wiederhergestellt]]></item>
-		<item name="wcf.uzbot.wbb.moderation.scrape"><![CDATA[oben gelöst]]></item>
-		<item name="wcf.uzbot.wbb.moderation.setAsAnnouncement"><![CDATA[zu Ankündigung gemacht]]></item>
-		<item name="wcf.uzbot.wbb.moderation.setLabel"><![CDATA[Label geändert ]]></item>
-		<item name="wcf.uzbot.wbb.moderation.sticky"><![CDATA[oben angeheftet]]></item>
-		<item name="wcf.uzbot.wbb.moderation.trash"><![CDATA[gelöscht (Papierkorb)]]></item>
-		<item name="wcf.uzbot.wbb.moderation.undone"><![CDATA[als unerledigt markiert]]></item>
-		<item name="wcf.uzbot.wbb.moderation.unsetAsAnnouncement"><![CDATA[Ankündigung gelöscht]]></item>
-		
-		<item name="wcf.uzbot.wbb.moderation.post.close"><![CDATA[Bearbeitung verboten]]></item>
-		<item name="wcf.uzbot.wbb.moderation.post.delete"><![CDATA[endgültig gelöscht]]></item>
-		<item name="wcf.uzbot.wbb.moderation.post.deleted"><![CDATA[Beitrag wurde gelöscht]]></item>
-		<item name="wcf.uzbot.wbb.moderation.post.disable"><![CDATA[deaktiviert]]></item>
-		<item name="wcf.uzbot.wbb.moderation.post.edit"><![CDATA[editiert]]></item>
-		<item name="wcf.uzbot.wbb.moderation.post.enable"><![CDATA[aktiviert]]></item>
-		<item name="wcf.uzbot.wbb.moderation.post.merge"><![CDATA[zusammengefügt]]></item>
-		<item name="wcf.uzbot.wbb.moderation.post.move"><![CDATA[verschoben]]></item>
-		<item name="wcf.uzbot.wbb.moderation.post.open"><![CDATA[Bearbeitung erlaubt]]></item>
-		<item name="wcf.uzbot.wbb.moderation.post.restore"><![CDATA[wiederhergestellt]]></item>
-		<item name="wcf.uzbot.wbb.moderation.post.trash"><![CDATA[gelöscht (Papierkorb)]]></item>
-		
-		<item name="wcf.uzbot.wbb.stats"><![CDATA[<strong>Foren</strong>
+    </category>
+
+    <category name="wcf.uzbot">
+        <item name="wcf.uzbot.wbb.moderation.changeTopic"><![CDATA[Titel geändert]]></item>
+        <item name="wcf.uzbot.wbb.moderation.close"><![CDATA[geschlossen]]></item>
+        <item name="wcf.uzbot.wbb.moderation.delete"><![CDATA[gelöscht]]></item>
+        <item name="wcf.uzbot.wbb.moderation.disable"><![CDATA[deaktiviert]]></item>
+        <item name="wcf.uzbot.wbb.moderation.done"><![CDATA[als erledigt markiert]]></item>
+        <item name="wcf.uzbot.wbb.moderation.enable"><![CDATA[aktiviert]]></item>
+        <item name="wcf.uzbot.wbb.moderation.markAsDone"><![CDATA[als erledigt markiert]]></item>
+        <item name="wcf.uzbot.wbb.moderation.markAsUndone"><![CDATA[als unerledigt markiert]]></item>
+        <item name="wcf.uzbot.wbb.moderation.merge"><![CDATA[zusammengefügt]]></item>
+        <item name="wcf.uzbot.wbb.moderation.move"><![CDATA[verschoben]]></item>
+        <item name="wcf.uzbot.wbb.moderation.open"><![CDATA[geöffnet]]></item>
+        <item name="wcf.uzbot.wbb.moderation.restore"><![CDATA[wiederhergestellt]]></item>
+        <item name="wcf.uzbot.wbb.moderation.scrape"><![CDATA[oben gelöst]]></item>
+        <item name="wcf.uzbot.wbb.moderation.setAsAnnouncement"><![CDATA[zu Ankündigung gemacht]]></item>
+        <item name="wcf.uzbot.wbb.moderation.setLabel"><![CDATA[Label geändert ]]></item>
+        <item name="wcf.uzbot.wbb.moderation.sticky"><![CDATA[oben angeheftet]]></item>
+        <item name="wcf.uzbot.wbb.moderation.trash"><![CDATA[gelöscht (Papierkorb)]]></item>
+        <item name="wcf.uzbot.wbb.moderation.undone"><![CDATA[als unerledigt markiert]]></item>
+        <item name="wcf.uzbot.wbb.moderation.unsetAsAnnouncement"><![CDATA[Ankündigung gelöscht]]></item>
+
+        <item name="wcf.uzbot.wbb.moderation.post.close"><![CDATA[Bearbeitung verboten]]></item>
+        <item name="wcf.uzbot.wbb.moderation.post.delete"><![CDATA[endgültig gelöscht]]></item>
+        <item name="wcf.uzbot.wbb.moderation.post.deleted"><![CDATA[Beitrag wurde gelöscht]]></item>
+        <item name="wcf.uzbot.wbb.moderation.post.disable"><![CDATA[deaktiviert]]></item>
+        <item name="wcf.uzbot.wbb.moderation.post.edit"><![CDATA[editiert]]></item>
+        <item name="wcf.uzbot.wbb.moderation.post.enable"><![CDATA[aktiviert]]></item>
+        <item name="wcf.uzbot.wbb.moderation.post.merge"><![CDATA[zusammengefügt]]></item>
+        <item name="wcf.uzbot.wbb.moderation.post.move"><![CDATA[verschoben]]></item>
+        <item name="wcf.uzbot.wbb.moderation.post.open"><![CDATA[Bearbeitung erlaubt]]></item>
+        <item name="wcf.uzbot.wbb.moderation.post.restore"><![CDATA[wiederhergestellt]]></item>
+        <item name="wcf.uzbot.wbb.moderation.post.trash"><![CDATA[gelöscht (Papierkorb)]]></item>
+
+        <item name="wcf.uzbot.wbb.stats"><![CDATA[<strong>Foren</strong>
 <br>- Gesamt: {#$boardOld} -- {#$board} ({if $board > $boardOld}+{/if}{$board - $boardOld})
 <br>- Kategorien: {#$boardCategoryOld} -- {#$boardCategory} ({if $boardCategory > $boardCategoryOld}+{/if}{$boardCategory - $boardCategoryOld})
 <br>- Verweise: {#$boardLinkOld} -- {#$boardLink} ({if $boardLink > $boardLinkOld}+{/if}{$boardLink - $boardLinkOld})
@@ -508,5 +508,5 @@
 <br>- Gelöscht: {#$postDeletedOld} -- {#$postDeleted} ({if $postDeleted > $postDeletedOld}+{/if}{$postDeleted - $postDeletedOld})
 <br>- Bearbeitungen: {#$postEditOld} -- {#$postEdit} ({if $postEdit > $postEditOld}+{/if}{$postEdit - $postEditOld})
 <br>]]></item>
-	</category>
+    </category>
 </language>
